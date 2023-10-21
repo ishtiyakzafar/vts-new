@@ -1,0 +1,47 @@
+.logo {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 60px;
+}
+
+:where(.css-dev-only-do-not-override-xu9wm8).ant-menu-dark .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-xu9wm8).ant-menu-dark>.ant-menu .ant-menu-item-selected {
+    background-color: #2ed573;
+}
+
+.ant-layout-sider,
+.ant-menu {
+    background: #4a69bd !important;
+}
+
+.ant-layout-sider-trigger {
+    background: #4a69bd !important;
+}
+
+.ant-layout-header {
+    background: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ant-layout-footer {
+    padding: 0;
+    line-height: 48px;
+    background: #ddd;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+
+@media(max-width:992px) {
+    .ant-layout-sider {
+        display: none;
+    }
+}
